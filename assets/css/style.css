@@ -17,3 +17,28 @@ body {
   background-color: #222;
   /* background-color: #60b347; */
 }
+/* Layout */
+header {
+    position: relative;
+    height: 35vh;
+    border-radius: 7px solid #eee;
+}
+
+main {
+    color: #eee;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left {
+    width: 52rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .right {
+    width: 52rem;
+    font-size: 2rem;
+  }
